@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		26B09013198C719200014C3F /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B09012198C719200014C3F /* RtMidi.cpp */; };
+		26B09016198C71F800014C3F /* MidiController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B09014198C71F800014C3F /* MidiController.cpp */; };
+		26B09018198C7A1800014C3F /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B09017198C7A1800014C3F /* CoreMIDI.framework */; };
+		26B0901A198C7A3700014C3F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B09019198C7A3700014C3F /* CoreFoundation.framework */; };
+		26B0901B198C7AF500014C3F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		26B0907B198D9F4E00014C3F /* timers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B09079198D9F4E00014C3F /* timers.cpp */; };
+		26B09084198DA1E600014C3F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B0907C198DA1E600014C3F /* background.png */; };
+		26B09085198DA1E600014C3F /* midi-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B0907D198DA1E600014C3F /* midi-blue.png */; };
+		26B09086198DA1E600014C3F /* midi-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B0907E198DA1E600014C3F /* midi-green.png */; };
+		26B09093198EF2BF00014C3F /* midi-lilac.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B0908D198EF2BF00014C3F /* midi-lilac.png */; };
+		26B09094198EF2BF00014C3F /* midi-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B0908E198EF2BF00014C3F /* midi-orange.png */; };
+		26B09095198EF2BF00014C3F /* midi-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B0908F198EF2BF00014C3F /* midi-red.png */; };
+		26B09096198EF2BF00014C3F /* midi-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B09090198EF2BF00014C3F /* midi-yellow.png */; };
+		26B09097198EF2BF00014C3F /* potikka.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B09091198EF2BF00014C3F /* potikka.png */; };
+		26B09098198EF2BF00014C3F /* spede.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B09092198EF2BF00014C3F /* spede.png */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A786D0337B5549A8B6E380C4 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99CDCABD96444DCD99CDA335 /* CinderApp.icns */; };
+		DFB88C45093348F4ADCBE230 /* TeknoBlinkenlichtApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B528FC4D4934E579BCEB186 /* TeknoBlinkenlichtApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		26B09007198B1BC000014C3F /* TeknoBlinkenlichtApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TeknoBlinkenlichtApp.h; path = ../src/TeknoBlinkenlichtApp.h; sourceTree = "<group>"; };
+		26B09011198C717700014C3F /* RtMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RtMidi.h; path = ../src/RtMidi.h; sourceTree = "<group>"; };
+		26B09012198C719200014C3F /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RtMidi.cpp; path = ../src/RtMidi.cpp; sourceTree = "<group>"; };
+		26B09014198C71F800014C3F /* MidiController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MidiController.cpp; path = ../src/MidiController.cpp; sourceTree = "<group>"; };
+		26B09015198C71F800014C3F /* MidiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiController.h; path = ../src/MidiController.h; sourceTree = "<group>"; };
+		26B09017198C7A1800014C3F /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		26B09019198C7A3700014C3F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		26B0901C198D3ABA00014C3F /* IMIDIListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IMIDIListener.h; path = ../src/IMIDIListener.h; sourceTree = "<group>"; };
+		26B09079198D9F4E00014C3F /* timers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timers.cpp; path = ../src/timers.cpp; sourceTree = "<group>"; };
+		26B0907A198D9F4E00014C3F /* timers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timers.h; path = ../src/timers.h; sourceTree = "<group>"; };
+		26B0907C198DA1E600014C3F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../assets/background.png; sourceTree = "<group>"; };
+		26B0907D198DA1E600014C3F /* midi-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi-blue.png"; path = "../assets/midi-blue.png"; sourceTree = "<group>"; };
+		26B0907E198DA1E600014C3F /* midi-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi-green.png"; path = "../assets/midi-green.png"; sourceTree = "<group>"; };
+		26B0908D198EF2BF00014C3F /* midi-lilac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi-lilac.png"; path = "../assets/midi-lilac.png"; sourceTree = "<group>"; };
+		26B0908E198EF2BF00014C3F /* midi-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi-orange.png"; path = "../assets/midi-orange.png"; sourceTree = "<group>"; };
+		26B0908F198EF2BF00014C3F /* midi-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi-red.png"; path = "../assets/midi-red.png"; sourceTree = "<group>"; };
+		26B09090198EF2BF00014C3F /* midi-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi-yellow.png"; path = "../assets/midi-yellow.png"; sourceTree = "<group>"; };
+		26B09091198EF2BF00014C3F /* potikka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = potikka.png; path = ../assets/potikka.png; sourceTree = "<group>"; };
+		26B09092198EF2BF00014C3F /* spede.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spede.png; path = ../assets/spede.png; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		7B528FC4D4934E579BCEB186 /* TeknoBlinkenlichtApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = TeknoBlinkenlichtApp.cpp; path = ../src/TeknoBlinkenlichtApp.cpp; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Tekno Blinkenlicht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tekno Blinkenlicht.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CDCABD96444DCD99CDA335 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		D0E3CDC3FE6D4C0EA82803E6 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		E5C4B2525BFD4112962D8724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E337805E8E40DEA5F78421 /* TeknoBlinkenlicht_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = TeknoBlinkenlicht_Prefix.pch; sourceTree = "<group>"; };
+		FBBA121A7AC44B5AAAA703CC /* ciUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ciUI.h; path = ../blocks/ciUI/src/ciUI.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0901B198C7AF500014C3F /* CoreAudio.framework in Frameworks */,
+				26B0901A198C7A3700014C3F /* CoreFoundation.framework in Frameworks */,
+				26B09018198C7A1800014C3F /* CoreMIDI.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				3F18E81A4B0A484E81765827 /* ciUI */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7B528FC4D4934E579BCEB186 /* TeknoBlinkenlichtApp.cpp */,
+				26B09012198C719200014C3F /* RtMidi.cpp */,
+				26B09014198C71F800014C3F /* MidiController.cpp */,
+				26B0901C198D3ABA00014C3F /* IMIDIListener.h */,
+				26B09079198D9F4E00014C3F /* timers.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Tekno Blinkenlicht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B0908C198EF2B000014C3F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				26B0907C198DA1E600014C3F /* background.png */,
+				26B0907D198DA1E600014C3F /* midi-blue.png */,
+				26B0907E198DA1E600014C3F /* midi-green.png */,
+				26B0908D198EF2BF00014C3F /* midi-lilac.png */,
+				26B0908E198EF2BF00014C3F /* midi-orange.png */,
+				26B0908F198EF2BF00014C3F /* midi-red.png */,
+				26B09090198EF2BF00014C3F /* midi-yellow.png */,
+				26B09091198EF2BF00014C3F /* potikka.png */,
+				26B09092198EF2BF00014C3F /* spede.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TeknoBlinkenlicht */ = {
+			isa = PBXGroup;
+			children = (
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				26B0908C198EF2B000014C3F /* Assets */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TeknoBlinkenlicht;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				26B0907A198D9F4E00014C3F /* timers.h */,
+				26B09015198C71F800014C3F /* MidiController.h */,
+				D0E3CDC3FE6D4C0EA82803E6 /* Resources.h */,
+				F5E337805E8E40DEA5F78421 /* TeknoBlinkenlicht_Prefix.pch */,
+				26B09007198B1BC000014C3F /* TeknoBlinkenlichtApp.h */,
+				26B09011198C717700014C3F /* RtMidi.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99CDCABD96444DCD99CDA335 /* CinderApp.icns */,
+				E5C4B2525BFD4112962D8724 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B09019198C7A3700014C3F /* CoreFoundation.framework */,
+				26B09017198C7A1800014C3F /* CoreMIDI.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E85143CDD5F47229146D17F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA121A7AC44B5AAAA703CC /* ciUI.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		3F18E81A4B0A484E81765827 /* ciUI */ = {
+			isa = PBXGroup;
+			children = (
+				3E85143CDD5F47229146D17F /* src */,
+			);
+			name = ciUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TeknoBlinkenlicht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TeknoBlinkenlicht" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeknoBlinkenlicht;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TeknoBlinkenlicht;
+			productReference = 8D1107320486CEB800E47090 /* Tekno Blinkenlicht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TeknoBlinkenlicht" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TeknoBlinkenlicht */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TeknoBlinkenlicht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B09085198DA1E600014C3F /* midi-blue.png in Resources */,
+				26B09086198DA1E600014C3F /* midi-green.png in Resources */,
+				26B09096198EF2BF00014C3F /* midi-yellow.png in Resources */,
+				26B09094198EF2BF00014C3F /* midi-orange.png in Resources */,
+				26B09095198EF2BF00014C3F /* midi-red.png in Resources */,
+				26B09097198EF2BF00014C3F /* potikka.png in Resources */,
+				A786D0337B5549A8B6E380C4 /* CinderApp.icns in Resources */,
+				26B09084198DA1E600014C3F /* background.png in Resources */,
+				26B09098198EF2BF00014C3F /* spede.png in Resources */,
+				26B09093198EF2BF00014C3F /* midi-lilac.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B09013198C719200014C3F /* RtMidi.cpp in Sources */,
+				26B09016198C71F800014C3F /* MidiController.cpp in Sources */,
+				DFB88C45093348F4ADCBE230 /* TeknoBlinkenlichtApp.cpp in Sources */,
+				26B0907B198D9F4E00014C3F /* timers.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TeknoBlinkenlicht_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					__MACOSX_CORE__,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = "Tekno Blinkenlicht";
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TeknoBlinkenlicht_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+					__MACOSX_CORE__,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = "Tekno Blinkenlicht";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../Cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../blocks/ciUI/src";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../Cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../blocks/ciUI/src";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TeknoBlinkenlicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TeknoBlinkenlicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

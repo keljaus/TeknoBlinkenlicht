@@ -1,0 +1,820 @@
+TTeknoBlinkenlicht
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Info.plist /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-blue.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-green.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-yellow.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-orange.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-red.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/potikka.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/CinderApp.icns
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/background.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/spede.png
+cCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-lilac.png
+cProcessPCH++ /var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch.pch TeknoBlinkenlicht_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/MacOS/Tekno\ Blinkenlicht normal i386
+cTouch /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053704AE9000000000000044C
+t1399868137
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053704AE900000000000001DE
+t1399868137
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000053704AE900000000000024B0
+t1399868137
+s9392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053704AE9000000000002848C
+t1399868137
+s165004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000053704AE90000000000006268
+t1399868137
+s25192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000053704AE9000000000000E448
+t1399868137
+s58440
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053704AE90000000000085C70
+t1399868137
+s547952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c0000000053704AE90000000000012664
+t1399868137
+s75364
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005370440500000000000066C0
+t1399866373
+s26304
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000537044080000000000080210
+t1399866376
+s524816
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000537E74A7000000000002C960
+t1400796327
+s182624
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000537E74AF000000000049EB50
+t1400796335
+s4844368
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png
+c0000000053DD68CC00000000000C2E11
+t1407019212
+s798225
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png
+c0000000053DD3D640000000000003F3E
+t1407008100
+s16190
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png
+c0000000053DD3D000000000000003716
+t1407008000
+s14102
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png
+c0000000053DD3F62000000000000403E
+t1407008610
+s16446
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png
+c0000000053DD3E960000000000003D77
+t1407008406
+s15735
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png
+c0000000053DD3DDF0000000000003564
+t1407008223
+s13668
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png
+c0000000053DD3D350000000000003126
+t1407008053
+s12582
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png
+c0000000053DD3DB600000000000043AA
+t1407008182
+s17322
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png
+c0000000053DD3CB6000000000005F7BB
+t1407007926
+s391099
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns
+c0000000053DAB4D00000000000070375
+t1406842064
+s459637
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp
+c0000000053DEB51B00000000000016F1
+t1407104283
+s5873
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp
+c0000000053DEB51B0000000000016E8D
+t1407104283
+s93837
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp
+c0000000053DEBC7B00000000000040FD
+t1407106171
+s16637
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp
+c0000000053DEB51B00000000000004E6
+t1407104283
+s1254
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist
+c0000000053DAE69200000000000004B5
+t1406854802
+s1205
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/TeknoBlinkenlicht_Prefix.pch
+c0000000053DAB4D0000000000000012D
+t1406842064
+s301
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app
+t1407106178
+s102
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Info.plist
+t1407106178
+s1597
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/MacOS/Tekno Blinkenlicht
+t1407106182
+s3925860
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/PkgInfo
+t1407106178
+s8
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/CinderApp.icns
+t1407106178
+s459637
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/background.png
+t1407106178
+s798225
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-blue.png
+t1407106178
+s16190
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-green.png
+t1407106178
+s14102
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-lilac.png
+t1407106178
+s16446
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-orange.png
+t1407106178
+s15735
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-red.png
+t1407106178
+s13668
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-yellow.png
+t1407106178
+s12582
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/potikka.png
+t1407106178
+s17322
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Resources/spede.png
+t1407106178
+s391099
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o
+t1407106180
+s267492
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o
+t1407106180
+s399704
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/Tekno Blinkenlicht.LinkFileList
+c0000000053DEBC820000000000000252
+t1407106178
+s594
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o
+t1407106181
+s2509836
+
+N/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o
+t1407106180
+s62760
+
+N/var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch.pch
+t1406944439
+s67058736
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp
+r0
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp
+r0
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp
+r0
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp
+r0
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/MidiController.cpp
+r0
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/RtMidi.cpp
+r0
+
+CBuild AST from /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/timers.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2e1f3d02f48eb941^6e504702f48eb941^---0#1#1#--18"Check dependencies36"B2146A20-C3EC-4E57-A217-AD133ED8E4F4-
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428798978.291178
+e428798980.141827
+r1
+xCompileC
+xbuild/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.h
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.h
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/IMIDIListener.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp236"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilere09f4a02f48eb941^76512404f48eb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp0000000000000000^3345"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -D__MACOSX_CORE__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-generated-files.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-own-target-headers.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-all-target-headers.hmap -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-project-headers.hmap -iquote../../Cinder/include -iquote../include -iquote../blocks/ciUI/src -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/include -I../../Cinder/boost -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources/i386 -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources -F/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug -include /var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch -MMD -MT dependencies -MF /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.d --serialize-diagnostics /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.dia -c /Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.cpp -o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o36"4250A3A9-39FC-41CF-B727-92394BF2B047-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/MidiController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428798978.290545
+e428798980.274982
+r1
+xCompileC
+xbuild/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp220"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler17804a02f48eb941^ed664604f48eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp0000000000000000^3297"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -D__MACOSX_CORE__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-generated-files.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-own-target-headers.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-all-target-headers.hmap -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-project-headers.hmap -iquote../../Cinder/include -iquote../include -iquote../blocks/ciUI/src -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/include -I../../Cinder/boost -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources/i386 -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources -F/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug -include /var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch -MMD -MT dependencies -MF /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.d --serialize-diagnostics /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.dia -c /Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.cpp -o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o36"1C58E85B-12D0-4CFB-8F30-2242F76F4CE7-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/RtMidi.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428798978.291483
+e428798981.260223
+r1
+xCompileC
+xbuild/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/foreach.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/foreach_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/include/cinder/Json.h
+d/Users/sami/Projects/personal/Cinder/include/cinder/Utilities.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/lexical_cast.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/detail/lcast_precision.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/array.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/assert.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/cast.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/converter.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/conversion_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/conversion_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/meta.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/equal_to.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/comparison_op.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/numeric_op.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/apply_wrap.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/include_preprocessed.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/cat.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/stringize.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/int_float_mixture.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/int_float_mixture_enum.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/sign_mixture.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/sign_mixture_enum.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/udt_builtin_mixture.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/udt_builtin_mixture_enum.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/is_subranged.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/multiplies.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/times.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/arithmetic_op.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/largest_int.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/times.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/converter_policies.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/config/no_tr1/cmath.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/converter.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/bounds.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/bounds.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/numeric_cast_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/cstdint.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/numeric_cast_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/has_left_shift.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/detail/has_binary_operator.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/is_fundamental.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/detail/bool_trait_def.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/detail/template_arity_spec.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/detail/bool_trait_undef.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/has_right_shift.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/special_functions/sign.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/tools/config.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/tools/user.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/special_functions/math_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/special_functions/detail/round_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/tools/promotion.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/type_traits/is_floating_point.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/policies/policy.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/contains.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/contains_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/contains_impl.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/find.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/remove_if.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/apply.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/limits/vector.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/inc.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/vector20.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/vector10.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/vector0.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/at.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/tag.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/config/typeof.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/front.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/push_front.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/item.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/pop_front.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/push_back.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/pop_back.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/pop_back_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/back.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/back_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/clear.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/vector0.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/iterator.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/plus.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/plus.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/minus.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/minus.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/O1_size.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/size.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/empty.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/begin_end.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/include_preprocessed.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/vector.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/at.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/at_impl.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/size.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/size_impl.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/comparison.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/not_equal_to.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/greater.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/greater.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/less_equal.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/greater_equal.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/config/no_tr1/complex.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/special_functions/detail/fp_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/detail/endian.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/detail/endian_compat.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/other/endian.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/version_number.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/make.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/detail/test.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/library/c/gnu.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/library/c/_prefix.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/detail/_cassert.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/macos.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/detail/os_detected.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/bsd.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/bsd/bsdi.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/bsd/dragonfly.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/bsd/free.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/bsd/open.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/predef/os/bsd/net.h
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/special_functions/fpclassify.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/math/tools/real_cast.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/container_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/list.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/config_begin.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/workaround.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/config_end.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/version_type.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/mpl.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/type_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/iterators.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/allocator_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/pointer_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/config_begin.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/workaround.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/config_end.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/memory_util.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/mpl.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/preprocessor.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/iteration/local.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/punctuation/paren_if.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/config/config.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/control/if.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/facilities/empty.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/punctuation/paren.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/punctuation/comma_if.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/control/expr_if.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/enum.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/enum_params.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/enum_trailing_params.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/enum_trailing.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/enum_shifted_params.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/enum_shifted.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/repeat.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/logical/not.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/arithmetic/sub.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/arithmetic/add.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/iteration/iterate.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/has_member_function_callable_with.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/iteration/detail/iter/forward1.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/iteration/detail/bounds/lower1.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/slot/detail/shared.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/iteration/detail/bounds/upper1.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/memory_util.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/preprocessor.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/variadic_templates_tools.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/throw_exception.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/move/detail/move_helpers.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/utilities.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/algorithms.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/list.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/assert.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/intrusive_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/link_mode.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/list_hook.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/utilities.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/parent_from_member.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/ebo_functor_holder.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/is_stateful_value_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/function_detector.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash/hash.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash/detail/hash_float.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash/detail/float_functions.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash/detail/limits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/integer/static_log2.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/functional/hash/extensions.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/detail/container_fwd.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/preprocessor/repetition/repeat_from_to.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/list_node.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/circular_list_algorithms.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/options.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/generic_hook.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/clear_on_destructor_base.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/node_alloc_holder.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/allocator_version_traits.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/multiallocation_chain.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/transform_iterator.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/slist.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/slist_hook.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/slist_node.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/circular_slist_algorithms.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/detail/common_slist_algorithms.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/intrusive/linear_slist_algorithms.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/allocation_type.hpp
+d/Users/sami/Projects/personal/Cinder/boost/boost/container/detail/destroyers.hpp
+d/Users/sami/Projects/personal/Cinder/include/cinder/Easing.h
+d/Users/sami/Projects/personal/Cinder/include/cinder/Timeline.h
+d/Users/sami/Projects/personal/Cinder/include/cinder/TimelineItem.h
+d/Users/sami/Projects/personal/Cinder/include/cinder/Tween.h
+d/Users/sami/Projects/personal/Cinder/include/cinder/Serial.h
+d/Users/sami/Projects/personal/Cinder/include/cinder/gl/Texture.h
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/MidiController.h
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/RtMidi.h
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/IMIDIListener.h
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp248"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8eb24a02f48eb941^a9a04205f48eb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp0000000000000000^3381"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -D__MACOSX_CORE__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-generated-files.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-own-target-headers.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-all-target-headers.hmap -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-project-headers.hmap -iquote../../Cinder/include -iquote../include -iquote../blocks/ciUI/src -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/include -I../../Cinder/boost -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources/i386 -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources -F/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug -include /var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch -MMD -MT dependencies -MF /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.d --serialize-diagnostics /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.dia -c /Users/sami/Projects/personal/TeknoBlinkenlicht/src/TeknoBlinkenlichtApp.cpp -o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o36"CC0D7F38-D882-46CF-B729-10D20315B11D-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428798978.291774
+e428798980.113970
+r1
+xCompileC
+xbuild/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp220"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler1ec44a02f48eb941^302e1d04f48eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp0000000000000000^3297"CompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -D__MACOSX_CORE__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-generated-files.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-own-target-headers.hmap -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-all-target-headers.hmap -iquote /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Tekno\ Blinkenlicht-project-headers.hmap -iquote../../Cinder/include -iquote../include -iquote../blocks/ciUI/src -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/include -I../../Cinder/boost -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources/i386 -I/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/DerivedSources -F/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug -include /var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch -MMD -MT dependencies -MF /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.d --serialize-diagnostics /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.dia -c /Users/sami/Projects/personal/TeknoBlinkenlicht/src/timers.cpp -o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o36"E8E2D0C8-9BAC-4C69-BF06-9A1ADF7C56B7-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCompileC build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/timers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/background.png
+s428798978.285660
+e428798978.289328
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/background.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/background.png150"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/background.pngd93d4902f48eb941^01de4e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/background.png0034702fdeffdf42^503"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/background.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/background.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"8A22E41E-3FD2-4B39-ACF4-3EA900EAD43C-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-blue.png
+s428798978.282139
+e428798978.283575
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-blue.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-blue.png148"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-blue.png52464802f48eb941^5dfd4802f48eb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/midi-blue.png0034702fdeffdf42^500"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-blue.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-blue.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"DCD107DB-630E-478A-96D4-95551A2F0BA8-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-green.png
+s428798978.282331
+e428798978.283594
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-green.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-green.png150"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-green.pnga54e4802f48eb941^19014902f48eb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/midi-green.png0034702fdeffdf42^503"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-green.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-green.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"9FDD777D-487A-4A37-BAF0-0648510D2077-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-lilac.png
+s428798978.287783
+e428798978.288991
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-lilac.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-lilac.png150"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-lilac.png41b94902f48eb941^ecda4e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/midi-lilac.png0034702fdeffdf42^503"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-lilac.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-lilac.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"0C53EEEF-954F-4DBE-A0E1-74FA9E225F91-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-orange.png
+s428798978.282995
+e428798978.284939
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-orange.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-orange.png152"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-orange.png39994802f48eb941^58c64e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/midi-orange.png0034702fdeffdf42^506"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-orange.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-orange.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"BBD4526A-C7A7-4F15-8994-5450B2183EB2-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-red.png
+s428798978.283602
+e428798978.285700
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-red.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-red.png146"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-red.png78d04802f48eb941^9fcd4e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/midi-red.png0034702fdeffdf42^497"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-red.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-red.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"AF05043F-E1A1-4BD3-B02C-5F43DF971DA5-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-yellow.png
+s428798978.282515
+e428798978.284523
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-yellow.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/midi-yellow.png152"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-yellow.pngc05f4802f48eb941^a7074902f48eb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/midi-yellow.png0034702fdeffdf42^506"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-yellow.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/midi-yellow.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"27958244-765E-4E88-8CFB-DADB89D482AB-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/potikka.png
+s428798978.284694
+e428798978.286139
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/potikka.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/potikka.png144"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/potikka.png1af94802f48eb941^f6d04e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/potikka.png0034702fdeffdf42^494"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/potikka.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/potikka.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"C582F07D-2B0E-492C-BFAC-119E036D2E6F-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/spede.png
+s428798978.286010
+e428798978.287349
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/spede.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/spede.png140"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/spede.png03444902f48eb941^24d64e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/spede.png0034702fdeffdf42^488"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/spede.png    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/assets/spede.png /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"C158B9F4-B5AC-4B49-BF2B-E60118C727B9-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/CinderApp.icns
+s428798978.285074
+e428798978.289333
+r1
+xCpResource
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns
+xbuild/Debug/Tekno Blinkenlicht.app/Contents/Resources/CinderApp.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Tekno Blinkenlicht.app/Contents/Resources/CinderApp.icns153"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/CinderApp.icns630b4902f48eb941^e3e04e02f48eb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno%20Blinkenlicht.app/Contents/Resources/CinderApp.icns0034702fdeffdf42^509"CpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/CinderApp.icns    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/CinderApp.icns /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources36"94F2EA2F-44FE-4FE4-AC40-93D4A6957ECA-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/background.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/background.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/midi-blue.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-blue.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/midi-green.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-green.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/midi-lilac.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-lilac.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/midi-orange.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-orange.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/midi-red.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-red.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/midi-yellow.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/midi-yellow.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/potikka.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/potikka.png
+r0
+
+CCpResource /Users/sami/Projects/personal/TeknoBlinkenlicht/resources/spede.png build/Debug/Tekno\ Blinkenlicht.app/Contents/Resources/spede.png
+r0
+
+CLd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/MacOS/Tekno\ Blinkenlicht normal i386
+s428798981.266699
+e428798982.650249
+r1
+xLd
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/MacOS/Tekno Blinkenlicht
+xnormal
+xi386
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/Tekno Blinkenlicht.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/RtMidi.o
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/MidiController.o
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/TeknoBlinkenlichtApp.o
+d/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/timers.o
+d/Users/sami/Projects/personal/Cinder/lib/libcinder_d.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QTKit.framework/QTKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Link /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/MacOS/Tekno Blinkenlicht85"Ld build/Debug/Tekno\ Blinkenlicht.app/Contents/MacOS/Tekno\ Blinkenlicht normal i38613604405f48eb941^9277a606f48eb941^---0#0#1#--1348"Ld build/Debug/Tekno\ Blinkenlicht.app/Contents/MacOS/Tekno\ Blinkenlicht normal i386    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug -F/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug -filelist /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/Tekno\ Blinkenlicht.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../Cinder/lib/libcinder_d.a -stdlib=libc++ -framework CoreAudio -framework CoreFoundation -framework CoreMIDI -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -Xlinker -dependency_info -Xlinker /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/TeknoBlinkenlicht.build/Debug/TeknoBlinkenlicht.build/Objects-normal/i386/Tekno\ Blinkenlicht_dependency_info.dat -o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/MacOS/Tekno\ Blinkenlicht36"03DAE88F-2D52-4F2E-B909-1E3B13C1AD9E-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CProcessInfoPlistFile /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Info.plist /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist
+s428798978.279937
+e428798978.281617
+r1
+xProcessInfoPlistFile
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app/Contents/Info.plist
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Process /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist87"ProcessInfoPlistFile build/Debug/Tekno\ Blinkenlicht.app/Contents/Info.plist Info.plistbaba4702f48eb941^622f4802f48eb941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist0000000000000000^513"ProcessInfoPlistFile build/Debug/Tekno\ Blinkenlicht.app/Contents/Info.plist Info.plist    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    builtin-infoPlistUtility /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/Info.plist -genpkginfo /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app/Contents/Info.plist36"BE023508-F236-4287-B09A-0CC6A4FD8954-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
+CProcessPCH++ /Users/sami/Library/Developer/Xcode/DerivedData/TeknoBlinkenlicht-gaybqicxtznecegrfnmsivkqwlfn/Index/PrecompiledHeaders/TeknoBlinkenlicht_Prefix-cpqscajwwzzuakgcubkimvileeog_ast/TeknoBlinkenlicht_Prefix.pch.pch TeknoBlinkenlicht_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/pz/n9qk4nmn39v7mp34rk2fjxz40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TeknoBlinkenlicht_Prefix-fxdsvlgenlwzotenipposqobgtrr/TeknoBlinkenlicht_Prefix.pch.pch TeknoBlinkenlicht_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app
+s428798982.652401
+e428798982.656994
+r1
+xTouch
+x/Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno Blinkenlicht.app41"Touch build/Debug/Tekno\ Blinkenlicht.app7219a706f48eb941^be31a806f48eb941^---0#0#1#--215"Touch build/Debug/Tekno\ Blinkenlicht.app    cd /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode    /usr/bin/touch -c /Users/sami/Projects/personal/TeknoBlinkenlicht/xcode/build/Debug/Tekno\ Blinkenlicht.app36"43CC6FA9-FEAA-4485-BC8A-7EA8C59088F0-
+bA6E6C9CE-3BBA-47A6-80BE-D23EC27E043A
+
