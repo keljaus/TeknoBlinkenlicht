@@ -33,6 +33,6 @@ How to
 
 - build Cinder
 - make the connections and upload Arduino sketch to your board via Arduino IDE
-- configure your Arduino port (ARDUINO_PORT) and MIDI controller name (MIDI_CONTROLLER_IN / MIDI_CONTROLLER_OUT) to TeknoBlinkenlicht.h
+- configure your Arduino port (ARDUINO_PORT) and MIDI controller name (MIDI_CONTROLLER_IN / MIDI_CONTROLLER_OUT) to TeknoBlinkenlichtApp.h
 - build the project
 - run the project and prepare to be trolled by Spede
