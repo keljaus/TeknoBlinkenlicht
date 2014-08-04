@@ -1,3 +1,5 @@
+![Image]('snapshot.png')
+
 Tekno Blinkenlicht
 ==================
 
